@@ -1,0 +1,53 @@
+[Info][OPS.OBF][Setup] Active Editor Platform: WindowsEditorPlatform
+[Info][OPS.OBF][Setup] Active Build Platform: DefaultBuildPlatform
+[Info][OPS.OBF][Setup] Start 'PreBuild' process.
+[Info][OPS.OBF][Setup] Load Project
+[Debug][OPS.OBF][Setup] Load DataContainer
+[Debug][OPS.OBF][Setup] Load Obfuscator Settings
+[Debug][OPS.OBF][Setup] Load Pipeline Components
+[Debug][OPS.OBF][Setup] Found Components (3):
+  - Analyse Unity Animation Methods ()
+  - Analyse Unity Gui Component ()
+  - Analyse MonoScript ()
+
+[Debug][OPS.OBF][Setup] Load Pipeline
+[Debug][OPS.OBF][Setup] Load Asset Cache
+[Debug][OPS.OBF][Setup] Found Extensions (8):
+  - .fbx
+  - .dae
+  - .3ds
+  - .dxf
+  - .obj
+  - .skp
+  - .anim
+  - .prefab
+
+[Info][OPS.OBF][OnPreBuild] Process component Analyse Unity Animation Methods
+[Info][OPS.OBF][OnPreBuild] Process component Analyse Unity Gui Component
+[Info][OPS.OBF][OnPreBuild] Process component Analyse MonoScript
+[Info][OPS.OBF][OnAnalyse_Assets] Process component Analyse Unity Animation Methods
+[Debug][OPS.OBF][OnAnalyse_Assets] Found methods in AnimationClip Packages/com.unity.timeline/Editor/StyleSheets/res/HumanoidDefault.anim (0):
+
+[Info][OPS.OBF][OnProcess_Assets] Process component Analyse Unity Animation Methods
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Iterate components in loaded build scene Assets/Scenes/SampleScene.unity.
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found 5 Root GameObjects in Scene Assets/Scenes/SampleScene.unity
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found 93 Components in Scene Assets/Scenes/SampleScene.unity
+[Info][OPS.OBF][OnAnalyse_Component_Scenes] Process component Analyse Unity Gui Component
+[Warning][OPS.OBF][OnAnalyse_Component_Scenes] Failed to get gameobjects for scene Assets/Scenes/SampleScene.unity. Exception: System.MissingMethodException: Method not found: UnityEngine.UI.InputField/SubmitEvent UnityEngine.UI.InputField.get_onEndEdit()
+  at 18.285 (System.Collections.Generic.List`1[T] 0) [0x0006a] in <55221d64be5c471688d364c360f9b5f5>:0 
+  at 18.286 () [0x00041] in <55221d64be5c471688d364c360f9b5f5>:0 
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found 7 Prefabs.
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found 287 Components in the prefabs.
+[Info][OPS.OBF][OnAnalyse_Component_Prefabs] Process component Analyse Unity Gui Component
+[Error][OPS.OBF][OnAnalyse_Component_Prefabs] While processing pre build pipeline: System.MissingMethodException: Method not found: UnityEngine.UI.InputField/SubmitEvent UnityEngine.UI.InputField.get_onEndEdit()
+  at 18.285 (System.Collections.Generic.List`1[T] 0) [0x0006a] in <55221d64be5c471688d364c360f9b5f5>:0 
+  at 18.287 () [0x00011] in <55221d64be5c471688d364c360f9b5f5>:0 
+  at 18.282 () [0x00120] in <55221d64be5c471688d364c360f9b5f5>:0 
+[Error][OPS.OBF][OnAnalyse_Component_Prefabs] Failed to process pre build pipeline!
+[Info][OPS.OBF][OnAnalyse_Component_Prefabs] Unload Project
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload Asset Cache
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload Pipeline
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload Pipeline Components
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload DataContainer
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload DataContainer
+[Info][OPS.OBF][OnAnalyse_Component_Prefabs] Finished 'PreBuild' process.

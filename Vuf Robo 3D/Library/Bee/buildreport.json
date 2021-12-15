@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 40086955206.4,"dur": 3285103.5, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 40087042027.3,"dur": 1057007.1, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 40088367915.9,"dur": 1723741.3, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "12/15/2021 18:30:53",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.3f1\\Editor\\Unity.exe\" -projectpath \"C:/GitHub/Vuf Robo 3D\" -useHub -hubIPC -cloudEnvironment production -buildTarget Android -skipUpgradeDialogs -hubSessionId 4ef4a820-5d7b-11ec-b930-d3b880ce6f91 -accessToken HLhl19506VpsYyhcIl6QHrCRrK7c9O7yu_I7oMJtD2Y009f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.3f1\\Editor\\Unity.exe -projectpath C:/GitHub/Vuf Robo 3D -useHub -hubIPC -cloudEnvironment production -buildTarget Android -skipUpgradeDialogs -hubSessionId 4ef4a820-5d7b-11ec-b930-d3b880ce6f91 -accessToken HLhl19506VpsYyhcIl6QHrCRrK7c9O7yu_I7oMJtD2Y009f",
+"meta_user_name": "\u0415\u0432\u0433\u0435\u043d\u0438\u0439",
+"meta_os_version": "Microsoft Windows NT 10.0.18363.0",
+"meta_cpu_count": "4"
+}
